@@ -12,5 +12,5 @@ categories = ["network-programming", "cryptography"]
 exclude = ["/admin/"]
 
 [dependencies]
-ring = "0.16.20"
+ring = { path = "../ring-xous" }
 untrusted = "0.7.0"
